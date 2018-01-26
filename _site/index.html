@@ -1,157 +1,598 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cmn-Hans" prefix="og: http://ogp.me/ns#" class="han-init">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>码志</title>
+    <link rel="stylesheet" href="http://localhost:4000/assets/vendor/primer-css/css/primer.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/vendor/primer-markdown/dist/user-content.min.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/vendor/octicons/octicons/octicons.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/components/collection.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/components/repo-card.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/sections/repo-list.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/sections/mini-repo-list.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/components/boxed-group.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/globals/common.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/vendor/share.js/dist/css/share.min.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/globals/responsive.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/posts/index.css">
+    <!-- Latest compiled and minified CSS -->
+    
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/pages/index.css">
+    
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Begin Jekyll SEO tag v2.4.0 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
-<meta name="generator" content="Jekyll v3.7.2" />
-<meta property="og:title" content="Your awesome title" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Your awesome title" />
-<script type="application/ld+json">
-{"name":"Your awesome title","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebSite","url":"http://localhost:4000/","headline":"Your awesome title","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="/feed.xml">
-  
+    
+    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="alternate" type="application/atom+xml" title="码志" href="http://localhost:4000/feed.xml">
+    <link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+    
+    <meta name="keywords" content="码志, Zhuang Ma, mzlogin, mazhuang">
+    <meta name="description" content="马壮的个人博客">
+    
+    
+        
+    
+    <meta property="og:url" content="http://localhost:4000/">
+    <meta property="og:site_name" content="码志">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="zh_CN">
+    
+    <script src="http://localhost:4000/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="http://localhost:4000/assets/js/jquery-ui.js"></script>
+    <script type="text/javascript">
+    function toggleMenu() {
+        var nav = document.getElementsByClassName("site-header-nav")[0];
+        if (nav.style.display == "inline-flex") {
+          nav.style.display = "none";
+        } else {
+          nav.style.display = "inline-flex";
+        }
+    }
+    </script>
 </head>
-
-
-  <body>
-
-    <header class="site-header" role="banner">
-
-  <div class="wrapper">
-    
-    
-    <a class="site-title" rel="author" href="/">Your awesome title</a>
-
-    
-      <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger">
-          
-            
-            
-          
-            
-            
-            <a class="page-link" href="/about/">About</a>
-            
-          
-            
-            
-          
-            
-            
-          
-            
-            
-          
+<body class="home" data-mz="home">
+    <header class="site-header">
+        <div class="container">
+            <h1><a href="http://localhost:4000/" title="码志"><span class="octicon octicon-mark-github"></span> 码志</a></h1>
+            <button class="collapsed mobile-visible" type="button" onclick="toggleMenu();">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <nav class="site-header-nav" role="navigation">
+                
+                <a href="http://localhost:4000/" class=" site-header-nav-item" target="" title="首页">首页</a>
+                
+                <a href="http://localhost:4000/categories/" class=" site-header-nav-item" target="" title="分类">分类</a>
+                
+                <a href="http://localhost:4000/wiki/" class=" site-header-nav-item" target="" title="维基">维基</a>
+                
+                <a href="http://localhost:4000/links/" class=" site-header-nav-item" target="" title="链接">链接</a>
+                
+                <a href="http://localhost:4000/about/" class=" site-header-nav-item" target="" title="关于">关于</a>
+                
+            </nav>
         </div>
-      </nav>
-    
-  </div>
-</header>
+    </header>
+    <!-- / header -->
 
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="home">
-  
-
-  
-
-
-  
-  <h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list">
-      
-        <li>
-          
-          <span class="post-meta">Jan 26, 2018</span>
-
-          <h3>
-            <a class="post-link" href="/jekyll/update/2018/01/26/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-          </h3>
-        </li>
-      
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-  
-
+    <section class="banner">
+    <div class="collection-head">
+        <div class="container">
+            <div class="collection-title">
+              <h1 class="collection-header" id="sub-title"><span>打码改变人生</span></h1>
+                <div class="collection-info">
+                    <span class="meta-info mobile-hidden">
+                        <span class="octicon octicon-location"></span>
+                        Wuhan, China
+                    </span>
+                    <span class="meta-info">
+                        <span class="octicon octicon-organization"></span>
+                        <a href="http://www.zkh360.com" target="_blank">zkh360.com</a>
+                    </span>
+                     <span class="meta-info">
+                        <span class="octicon octicon-mark-github"></span>
+                        <a href="https://github.com/mzlogin" target="_blank">mzlogin</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.banner -->
+<section class="container content">
+    <div class="columns">
+        <div class="column two-thirds">
+            <ol class="repo-list">
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="http://localhost:4000/2017/12/03/tcp-connect-between-android-emulators/">解决两个 Android 模拟器之间无法网络通信的问题</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        本文解决的是一个小众场景的问题：
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/12/03
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="http://localhost:4000/categories/#Android" title="Android">Android</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="http://localhost:4000/2017/11/12/start-from-toast/">Android 源码分析 —— 从 Toast 出发</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        本系列文章在 https://github.com/mzlogin/rtfsc-android 持续更新中，欢迎有兴趣的童鞋们关注。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/11/12
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="http://localhost:4000/categories/#Android" title="Android">Android</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="http://localhost:4000/2017/10/24/1024-poses/">程序员节的过节姿势大全</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        今天是 10 月 24 日，不知道你的朋友圈有没有被程序员节刷屏，反正我的是被刷了。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/10/24
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="http://localhost:4000/categories/#Blog" title="Blog">Blog</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="http://localhost:4000/2017/10/14/guanggoo-android-app/">发布一款光谷社区第三方 Android App</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        在过去的一个来月，我利用业余时间做了一款光谷社区的第三方 Android 客户端。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/10/14
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="http://localhost:4000/categories/#Android" title="Android">Android</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="http://localhost:4000/2017/10/05/rtfsc-methods-and-meaning/">阅读源码的意义与方法</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        思索了这两个问题良久，也去知乎找了一些相关话题的问答，但并没有标准答案。所以，我这里也只是记录一些我对此的看法，也许会随着 RTFSC 阅历的丰富而发生变化，我会记录更新于 https://github.com/mzlogin/rtfsc-android。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/10/05
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="http://localhost:4000/categories/#Android" title="Android">Android</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="http://localhost:4000/2017/09/23/rtfsc-android-start/">Android 源码分析开篇</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        在心中谋划已久的此事终于要开篇了，虽然迟了点，十年前没有种的树，就从现在开始种吧。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/09/23
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="http://localhost:4000/categories/#Android" title="Android">Android</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="http://localhost:4000/2017/09/11/joins-in-sql/">图解 SQL 里的各种 JOIN</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        从业以来主要在做客户端，用到的数据库都是表结构比较简单的 SQLite，以我那还给老师一大半的 SQL 水平倒也能对付。现在偶尔需要到后台的 SQL Server 里追查一些数据问题，就显得有点捉襟见肘了，特别是各种 JOIN，有时候傻傻分不清楚，于是索性弄明白并做个记录。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/09/11
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="http://localhost:4000/categories/#Database" title="Database">Database</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="http://localhost:4000/2017/09/01/markdown-odd-skills/">关于 Markdown 的一些奇技淫巧</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        自从几年前开始在 GitHub 玩耍，接触到 Markdown 之后，就一发不可收拾，在各种文档编辑上，有条件用 Markdown 的尽量用，不能用的创造条件也要用——README、博客、公众号、接口文档等等全都是，比如当前这篇文章就是用 Markdown 编辑而成。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/09/01
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="http://localhost:4000/categories/#Markdown" title="Markdown">Markdown</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+            </ol>
+        </div>
+        <div class="column one-third">
+            
+<h3>Search</h3>
+<div id="site_search">
+    <input type="text" id="search_box" placeholder="Search">
 </div>
 
-      </div>
-    </main>
+<ul id="search_results"></ul>
 
-    <footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/modules/sidebar-search.css">
+<script src="http://localhost:4000/assets/js/jekyll-search.min.js"></script>
+<script src="http://localhost:4000/assets/js/search.js"></script>
 
-  <div class="wrapper">
+<script type="text/javascript">
+SimpleJekyllSearch({
+    searchInput: document.getElementById('search_box'),
+    resultsContainer: document.getElementById('search_results'),
+    json: 'http://localhost:4000/assets/search_data.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+    exclude: ['Welcome']
+})
+</script>
 
-    <h2 class="footer-heading">Your awesome title</h2>
+            <h3>My Popular Repositories</h3>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            
-              Your awesome title
-            
-            </li>
-            
-            <li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li>
-            
-        </ul>
-      </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</ul>
 
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
-      </div>
+<a href="https://github.com/mzlogin/awesome-adb" target="_blank" class="card text-center">
+    <div class="thumbnail">
+        <div class="card-image geopattern" data-pattern-id="awesome-adb">
+            <div class="card-image-cell">
+                <h3 class="card-title">
+                    awesome-adb
+                </h3>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="card-description">
+                <p class="card-text"><img class="emoji" title=":lollipop:" alt=":lollipop:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f36d.png" height="20" width="20"> ADB Usage Complete / ADB 用法大全</p>
+            </div>
+            <div class="card-text">
+                <span class="meta-info" title="3417 stars">
+                    <span class="octicon octicon-star"></span> 3417
+                </span>
+                <span class="meta-info" title="780 forks">
+                    <span class="octicon octicon-git-branch"></span> 780
+                </span>
+                <span class="meta-info" title="Last updated：2018-01-26 06:26:32 UTC">
+                    <span class="octicon octicon-clock"></span>
+                    <time datetime="2018-01-26 06:26:32 UTC">2018-01-26</time>
+                </span>
+            </div>
+        </div>
     </div>
+</a>
 
-  </div>
+<a href="https://github.com/mzlogin/chinese-copywriting-guidelines" target="_blank" class="card text-center">
+    <div class="thumbnail">
+        <div class="card-image geopattern" data-pattern-id="chinese-copywriting-guidelines">
+            <div class="card-image-cell">
+                <h3 class="card-title">
+                    chinese-copywriting-guidelines
+                </h3>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="card-description">
+                <p class="card-text"><img class="emoji" title=":mahjong:" alt=":mahjong:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f004.png" height="20" width="20"> Chinese Copywriting Guidelines：中文文案排版指北（简体中文版）</p>
+            </div>
+            <div class="card-text">
+                <span class="meta-info" title="887 stars">
+                    <span class="octicon octicon-star"></span> 887
+                </span>
+                <span class="meta-info" title="175 forks">
+                    <span class="octicon octicon-git-branch"></span> 175
+                </span>
+                <span class="meta-info" title="Last updated：2018-01-24 07:37:23 UTC">
+                    <span class="octicon octicon-clock"></span>
+                    <time datetime="2018-01-24 07:37:23 UTC">2018-01-24</time>
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
 
-</footer>
+<a href="https://github.com/mzlogin/mzlogin.github.io" target="_blank" class="card text-center">
+    <div class="thumbnail">
+        <div class="card-image geopattern" data-pattern-id="mzlogin.github.io">
+            <div class="card-image-cell">
+                <h3 class="card-title">
+                    mzlogin.github.io
+                </h3>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="card-description">
+                <p class="card-text"><img class="emoji" title=":speak_no_evil:" alt=":speak_no_evil:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f64a.png" height="20" width="20"> My Blog / Jekyll Themes</p>
+            </div>
+            <div class="card-text">
+                <span class="meta-info" title="422 stars">
+                    <span class="octicon octicon-star"></span> 422
+                </span>
+                <span class="meta-info" title="420 forks">
+                    <span class="octicon octicon-git-branch"></span> 420
+                </span>
+                <span class="meta-info" title="Last updated：2018-01-26 00:46:52 UTC">
+                    <span class="octicon octicon-clock"></span>
+                    <time datetime="2018-01-26 00:46:52 UTC">2018-01-26</time>
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="https://github.com/mzlogin/vim-markdown-toc" target="_blank" class="card text-center">
+    <div class="thumbnail">
+        <div class="card-image geopattern" data-pattern-id="vim-markdown-toc">
+            <div class="card-image-cell">
+                <h3 class="card-title">
+                    vim-markdown-toc
+                </h3>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="card-description">
+                <p class="card-text"><img class="emoji" title=":package:" alt=":package:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4e6.png" height="20" width="20"> A vim 7.4+ plugin to generate table of contents for Markdown files.</p>
+            </div>
+            <div class="card-text">
+                <span class="meta-info" title="152 stars">
+                    <span class="octicon octicon-star"></span> 152
+                </span>
+                <span class="meta-info" title="18 forks">
+                    <span class="octicon octicon-git-branch"></span> 18
+                </span>
+                <span class="meta-info" title="Last updated：2018-01-25 08:05:26 UTC">
+                    <span class="octicon octicon-clock"></span>
+                    <time datetime="2018-01-25 08:05:26 UTC">2018-01-25</time>
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="https://github.com/mzlogin/CleanExpert" target="_blank" class="card text-center">
+    <div class="thumbnail">
+        <div class="card-image geopattern" data-pattern-id="CleanExpert">
+            <div class="card-image-cell">
+                <h3 class="card-title">
+                    CleanExpert
+                </h3>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="card-description">
+                <p class="card-text"><img class="emoji" title=":green_heart:" alt=":green_heart:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f49a.png" height="20" width="20"> A cleaner app for android</p>
+            </div>
+            <div class="card-text">
+                <span class="meta-info" title="63 stars">
+                    <span class="octicon octicon-star"></span> 63
+                </span>
+                <span class="meta-info" title="31 forks">
+                    <span class="octicon octicon-git-branch"></span> 31
+                </span>
+                <span class="meta-info" title="Last updated：2018-01-10 07:26:32 UTC">
+                    <span class="octicon octicon-clock"></span>
+                    <time datetime="2018-01-10 07:26:32 UTC">2018-01-10</time>
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
 
 
-  </body>
 
+        </div>
+    </div>
+    <div class="pagination text-align">
+      <div class="btn-group">
+        
+            <button disabled href="javascript:;" class="btn btn-outline">«</button>
+        
+        
+            <a href="javascript:;" class="active btn btn-outline">1</a>
+        
+        
+          
+              <a href="http://localhost:4000/page2" class="btn btn-outline">2</a>
+          
+        
+          
+              <a href="http://localhost:4000/page3" class="btn btn-outline">3</a>
+          
+        
+          
+              <a href="http://localhost:4000/page4" class="btn btn-outline">4</a>
+          
+        
+          
+              <a href="http://localhost:4000/page5" class="btn btn-outline">5</a>
+          
+        
+          
+              <a href="http://localhost:4000/page6" class="btn btn-outline">6</a>
+          
+        
+          
+              <a href="http://localhost:4000/page7" class="btn btn-outline">7</a>
+          
+        
+          
+              <a href="http://localhost:4000/page8" class="btn btn-outline">8</a>
+          
+        
+          
+              <a href="http://localhost:4000/page9" class="btn btn-outline">9</a>
+          
+        
+          
+              <a href="http://localhost:4000/page10" class="btn btn-outline">10</a>
+          
+        
+          
+              <a href="http://localhost:4000/page11" class="btn btn-outline">11</a>
+          
+        
+          
+              <a href="http://localhost:4000/page12" class="btn btn-outline">12</a>
+          
+        
+          
+              <a href="http://localhost:4000/page13" class="btn btn-outline">13</a>
+          
+        
+        
+            <a href="http://localhost:4000/page2" class="btn btn-outline">»</a>
+        
+        </div>
+    </div>
+    <!-- /pagination -->
+</section>
+<!-- /section.content -->
+
+    <footer class="container">
+        <div class="site-footer" role="contentinfo">
+            <div class="copyright left mobile-block">
+                    © 2015
+                    <span title="Zhuang Ma">Zhuang Ma</span>
+                    <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a>
+            </div>
+
+            <ul class="site-footer-links right mobile-hidden">
+                <li>
+                    <a href="javascript:window.scrollTo(0,0)">TOP</a>
+                </li>
+            </ul>
+            <a href="http://github.com/mzlogin/mzlogin.github.io" target="_blank" aria-label="view source code">
+                <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+            </a>
+            <ul class="site-footer-links mobile-hidden">
+                
+                <li>
+                    <a href="http://localhost:4000/" title="首页" target="">首页</a>
+                </li>
+                
+                <li>
+                    <a href="http://localhost:4000/categories/" title="分类" target="">分类</a>
+                </li>
+                
+                <li>
+                    <a href="http://localhost:4000/wiki/" title="维基" target="">维基</a>
+                </li>
+                
+                <li>
+                    <a href="http://localhost:4000/links/" title="链接" target="">链接</a>
+                </li>
+                
+                <li>
+                    <a href="http://localhost:4000/about/" title="关于" target="">关于</a>
+                </li>
+                
+                <li><a href="http://localhost:4000/feed.xml"><span class="octicon octicon-rss" style="color:orange;"></span></a></li>
+            </ul>
+
+        </div>
+    </footer>
+    <!-- / footer -->
+    <script src="http://localhost:4000/assets/vendor/share.js/dist/js/share.min.js"></script>
+    <script src="http://localhost:4000/assets/js/geopattern.js"></script>
+    <script src="http://localhost:4000/assets/js/prism.js"></script>
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/globals/prism.css">
+    <script>
+      jQuery(document).ready(function($) {
+        // geopattern
+        $('.geopattern').each(function(){
+          $(this).geopattern($(this).data('pattern-id'));
+        });
+       // hljs.initHighlightingOnLoad();
+      });
+    </script>
+
+    
+
+    
+
+    
+
+    
+
+    
+    <div style="display:none">
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-80669434-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+    </div>
+    
+</body>
 </html>
