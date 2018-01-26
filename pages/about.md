@@ -1,14 +1,14 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: To My Love
+keywords: 0xl2oot, wyh
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是0xl2oot。
 
 仰慕「优雅编码的艺术」。
 
@@ -18,7 +18,7 @@ permalink: /about/
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
-{% endfor %}
+  {% endfor %}
 
 ## Skill Keywords
 
