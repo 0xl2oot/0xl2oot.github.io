@@ -1,19 +1,13 @@
-- name: Software Engineer Keywords
+- name: 后端
   keywords:
       - Java
       - C++
       - Python
-      - Design Patterns
+      - PHP
 
-- name: Mobile Developer Keywords
+- name: 前端
   keywords:
-      - Android
-      - Reverse Engineering
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - HTML
+      - CSS
+      - JavaScript
+      - Bootstrap
