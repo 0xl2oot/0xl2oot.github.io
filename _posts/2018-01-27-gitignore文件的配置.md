@@ -10,9 +10,9 @@ keywords: Blog, Git
 
 有些时候，你必须把某些文件放到Git工作目录中，但又不能提交它们，比如保存了数据库密码的配置文件啦，等等。
 
-好在 Git 考虑到了大家的感受，这个问题解决起来也很简单，在 Git 工作区的根目录下创建一个特殊的 .gitignore 文件，然后把要忽略的文件名填进去, Git 就会自动忽略这些文件。
+好在 Git 考虑到了大家的感受，这个问题解决起来也很简单，在 Git 工作区的根目录下创建一个特殊的 `.gitignore` 文件，然后把要忽略的文件名填进去，Git 就会自动忽略这些文件。
 
-不需要从头写 `.gitignore` 文件， GitHub 已经为我们准备了各种配置文件，只需要组合一下就可以使用了。所有配置文件可以直接在线浏览：
+不需要从头写 `.gitignore` 文件，GitHub 已经为我们准备了各种配置文件，只需要组合一下就可以使用了。所有配置文件可以直接在线浏览：
 
 [https://github.com/github/gitignore](https://github.com/github/gitignore)
 
@@ -69,22 +69,22 @@ db.ini
 deploy_key_rsa
 ```
 
-最后一步就是把 `.gitignore` 也提交到 Git ，就完成了！当然检验 `.gitignore` 的标准是 `git status` 命令是不是说 `working directory clean` 。
+最后一步就是把 `.gitignore` 也提交到 Git，就完成了！当然检验 `.gitignore` 的标准是 `git status` 命令是不是说 `working directory clean` 。
 
 ## Windows 下创建 `.gitignore` 文件
 
 方法一（最直接）：
-在资源管理创建文件时，文件命名 `.gitignore.` ，注意结尾有个 `.` 号，回车确认时系统会自动存成 `.gitignore` 。
+在资源管理创建文件时，文件命名 `.gitignore.`，注意结尾有个 `.` 号，回车确认时系统会自动存成 `.gitignore`。
 
 方法二：
-打开文本编辑器，保存时文件名输入 `.gitignore` ，保存类型选 `所有文件` 。
+打开文本编辑器，保存时文件名输入 `.gitignore`，保存类型选 `所有文件`。
 
 方法三：
 进入 cmd 命令行，执行 `echo > .gitignore` 输入空内容并创建文件，或执行 `rename somefile .gitignore、copy somefile .gitignore` 从已有文件复制、重命名。
 
 ## 强制添加到 Git
 
-有些时候，你想添加一个文件到 Git ，但发现添加不了，原因是这个文件被 `.gitignore` 忽略了：
+有些时候，你想添加一个文件到 Git，但发现添加不了，原因是这个文件被 `.gitignore` 忽略了：
 
 ```shell
 $ git add App.class
@@ -106,7 +106,7 @@ $ git check-ignore -v App.class
 .gitignore:3:*.class    App.class
 ```
 
-Git 会告诉我们， `.gitignore` 的第3行规则忽略了该文件，于是我们就可以知道应该修订哪个规则。
+Git 会告诉我们，`.gitignore` 的第3行规则忽略了该文件，于是我们就可以知道应该修订哪个规则。
 
 ## 小结
 忽略某些文件时，需要编写 `.gitignore` 。
