@@ -58,7 +58,9 @@ comments: false
         </div>
         <div class="column one-third">
             {% include sidebar-search.html %}
+            {% if site.github.owner_name == "0xl2oot" %}
             {% include sidebar-popular-repo.html %}
+            {% endif %}
         </div>
     </div>
     <div class="pagination text-align">

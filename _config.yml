@@ -2,7 +2,6 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-#github: https://github.com/0xl2oot
 url: http://0xl2oot.win
 date_format: "ordinal"
 title: 0xl2oot
