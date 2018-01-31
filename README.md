@@ -8,5 +8,5 @@
 
 **[在线预览 &rarr;](https://0xl2oot.win/)**
 
-![screenshot home](http://0xl2oot.win/assets/images/screenshots/home.png)
+![screenshot home](/assets/images/screenshots/home.png)
 
