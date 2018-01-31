@@ -1,0 +1,20 @@
+<div style="height: 200px; width: 100%;">
+	<div class="tagcloud">
+		{% for category in site.tags %}
+			<a href="#">{{ category | first }}</a>
+		{% endfor %}
+	</div>
+</div>
+
+<script src="{{ site.url }}/assets/vendor/tagcloud/dist/tagcloud.min.js"></script>
+<script type="text/javascript">
+	tagcloud({
+			//参数名: 默认值
+			fontsize: 20,       //基本字体大小
+			radius: 60,         //滚动半径
+			mspeed: "normal",   //滚动最大速度
+			ispeed: "normal",   //滚动初速度
+			direction: 90,     //初始滚动方向
+			keep: false          //鼠标移出组件后是否继续随鼠标滚动
+		});
+</script>

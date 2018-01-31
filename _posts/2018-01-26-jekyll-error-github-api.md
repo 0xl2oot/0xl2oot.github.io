@@ -5,6 +5,7 @@ categories: [Blog, Solved]
 description: Jekyll配置报错 GitHub Metadata :No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
 keywords: Blog, Jekyll
 excerpt: Jekyll配置报错 GitHub Metadata:No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+tags : [Jekyll, GitHub]
 ---
 
 ## 问题

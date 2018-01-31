@@ -4,6 +4,7 @@ title: .gitignore文件的配置
 categories: [Blog, Git]
 description: .gitignore文件的配置
 keywords: Blog, Git
+tags: [git]
 ---
 
 > 对于本 Blog 来说，在上传到 GitHub 中时，并不需要上传 `_site` 和 `_drafts` 目录中的内容，此时便可以设置 `.gitignore` 文件。
