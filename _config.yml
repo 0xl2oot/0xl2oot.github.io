@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://0xl2oot.win
+url: http://0xl2oot.cn
 date_format: "ordinal"
 title: 0xl2oot
 subtitle: "To My Love"
@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: 0xl2oot
 organization: 0xl2oot
-organization_url: http://0xl2oot.win/
+organization_url: http://0xl2oot.cn/
 github_username: 0xl2oot
 location: Beijing, China
 email: 0xl2oot@gmail.com
