@@ -32,7 +32,7 @@ tags: [Coding Pages, WordPress]
 
 从 Coding Pages 管理界面进入 phpMyAdmin, 修改存储的 Url 的 wp_options 表的前两项 siteUrl 和 home.
 
-[![Modify Url](/images/post/wordpress/modify-url.png)
+![Modify Url](/images/post/wordpress/modify-url.png)
 
 修改后再次刷新，就可以进入管理界面了。
 
