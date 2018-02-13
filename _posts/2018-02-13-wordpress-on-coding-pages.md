@@ -31,7 +31,7 @@ excerpt: 在 Coding.net 上部署 WordPress
 
 从 Coding Pages 管理界面进入 phpMyAdmin, 修改存储的 Url 的 wp_options 表的前两项 siteUrl 和 home.
 
-[![Modify Url](https://i.loli.net/2018/02/13/5a82a28dbee8a.png)](https://i.loli.net/2018/02/13/5a82a28dbee8a.png)
+[![Modify Url](/images/post/wordpress/modify-url.png)
 
 修改后再次刷新，就可以进入管理界面了。
 
