@@ -5,6 +5,7 @@ categories: [Coding Pages, WordPress]
 description: 在 Coding.net 上部署 WordPress
 keywords: Coding Pages, WordPress
 excerpt: 在 Coding.net 上部署 WordPress
+tags: [Coding Pages, WordPress]
 ---
 
 和 Git Pages 一样，Coding.net 也提供了 [Coding Pages](https://coding.net/pages/) 的服务。
