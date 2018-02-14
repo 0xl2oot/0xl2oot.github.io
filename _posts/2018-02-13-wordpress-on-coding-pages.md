@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 在 Coding.net 上部署 WordPress
-categories: [Coding Pages, WordPress]
-description: 在 Coding.net 上部署 WordPress
-keywords: Coding Pages, WordPress
-excerpt: 在 Coding.net 上部署 WordPress
-tags: [Coding Pages, WordPress]
+title: 在 Coding.net 上部署 WordPress 和 ThinkPHP
+categories: [Coding Pages]
+description: 在 Coding.net 上部署 WordPress 和 ThinkPHP
+keywords: Coding Pages, WordPress, ThinkPHP
+excerpt: 在 Coding.net 上部署 WordPress 和 ThinkPHP
+tags: [Coding Pages, WordPress, ThinkPHP]
 ---
 
 和 Git Pages 一样，Coding.net 也提供了 [Coding Pages](https://coding.net/pages/) 的服务。
@@ -21,6 +21,10 @@ tags: [Coding Pages, WordPress]
 ## 部署 [WordPress](https://wordpress.org/)
 
 可以参考 [Coding 帮助文档](https://coding.net/help/doc/pages/dpages.html)
+
+## 部署 [ThinkPHP](http://www.thinkphp.cn/)
+
+步骤和上面部署 WordPress 类似，这里需要注意，ThinkPHP 需要修改 URL 重写的配置，参考 [TP5开发手册-URL重写](https://www.kancloud.cn/manual/thinkphp5/177576)，由于没有修改服务器配置的权限，需要修改 index.php 文件。另外，在 Coding Pages 的设置页面上设置网站入口为 /public。
 
 ## 绑定自定义域名
 
