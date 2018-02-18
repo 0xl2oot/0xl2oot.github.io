@@ -30,4 +30,4 @@ tags: []
 喵呜喵
 ```
 
-![miao](/images/post/miao/miao.png)
+![miao](/images/post/miao/miao.png){:width="50%"}
