@@ -10,7 +10,7 @@ tags: [MATLAB]
 
 效果是这样：
 
-![Merry Christmas.jpg](https://ooo.0o0.ooo/2016/12/25/585f351f7814c.jpg)
+![Merry Christmas.jpg](/images/post/christmas/1.jpg)
 
 ```matlab
 function christmas

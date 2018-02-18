@@ -14,9 +14,9 @@ tags: [Photoshop]
 
 ## 【1】. Photoshop介绍  
 
-![Ps.jpg](https://ooo.0o0.ooo/2016/12/08/58496221a8dc2.jpg)
+![Ps.jpg](/images/post/ps/1.jpg)
 
-![滤镜.jpg](https://ooo.0o0.ooo/2016/12/08/58495ff100034.jpg){:width="70%" }
+![滤镜.jpg](/images/post/ps/2.jpg){:width="70%" }
 
 
 由于机房的软件硬件限制，今天给大家分享Ps使用方法用的软件版本是比较老的版本了，但是并不影响使用，大家如果想在自己电脑上用的话，我建议大家用最新版，最新版会有很多新的特性，能帮助我们更好的对图片进行处理。  
@@ -54,11 +54,11 @@ f. [颜色模式介绍](http://baike.baidu.com/view/1139658.htm)
 
 g. 图片格式  
 
-![File Format.jpg](https://ooo.0o0.ooo/2016/12/09/584a0fccdaaba.jpg)
+![File Format.jpg](/images/post/ps/3.jpg)
 
 h. 图层  
 用一张海报来举例  
-![大海报.jpg](https://ooo.0o0.ooo/2016/12/09/584a13ea73a47.jpg)
+![大海报.jpg](/images/post/ps/4.jpg)
 
 
 ## 【4】.工具栏工具的介绍  
@@ -70,11 +70,11 @@ b. 选区工具
 
 > 布尔运算  
 
-![布尔运算.png](https://ooo.0o0.ooo/2016/12/08/584974ae5ed24.png)
+![布尔运算.png](/images/post/ps/5.png)
 
 制作工商银行LOGO  
 
-![工行logo.jpg](https://ooo.0o0.ooo/2016/12/09/584a0eb25e652.jpg){:width="50%" }
+![工行logo.jpg](/images/post/ps/6.jpg){:width="50%" }
 
 
 c. 裁剪工具（C）  
