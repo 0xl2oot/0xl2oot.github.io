@@ -76,6 +76,9 @@ collections:
     wiki:
         output: true
         permalink: /wiki/:path/
+    story:
+        output: true
+        permalink: /story/:path
 
 repository: 0xl2oot/0xl2oot.github.io
 
