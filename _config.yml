@@ -10,7 +10,7 @@ description: "王永红的个人博客"
 keywords: 0xl2oot, 王永红
 timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 5
+side_bar_repo_limit: 4
 
 # ---------------- #
 #      Author      #
