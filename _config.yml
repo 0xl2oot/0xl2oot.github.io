@@ -79,6 +79,9 @@ collections:
     story:
         output: true
         permalink: /story/:path
+    en:
+        output: true
+        permalink: /en/:path
 
 repository: 0xl2oot/0xl2oot.github.io
 
