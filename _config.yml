@@ -1,7 +1,7 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
+baseurl: ''
 url: https://0xl2oot.cn
 date_format: "ordinal"
 title: 0xl2oot
