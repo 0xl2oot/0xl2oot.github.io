@@ -6,8 +6,8 @@ url: https://0xl2oot.cn
 date_format: "ordinal"
 title: 0xl2oot
 subtitle: "To My Love"
-description: "王永红的个人博客"
-keywords: 0xl2oot, 王永红
+description: "0xl2oot - 分享技术，分享知识"
+keywords: 0xl2oot
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 4
@@ -116,3 +116,17 @@ lazy_load_disqus : false
 # ---------------- #
 google:
     analytics_id: UA-96623363-2
+    
+# 心知天气
+seniverse: 
+    flavor: bubble
+    location: WX4FBXXFKE4F
+    geolocation: enabled
+    position: top-right
+    margin: 10px 10px
+    language: auto
+    unit: c
+    theme: chameleon
+    uid: U92CBFC4E9
+    hash: c2603e1ea884c24d0d41571b13cdd101
+
