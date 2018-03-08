@@ -106,7 +106,7 @@ gitalk:
     owner: 0xl2oot
     repo: blog-comments
     clientID: 48f7d57eccfcb4a38949
-    clientSecret: 5b2ef80b4dff70c fb84cf0986f36defa549ec438
+    clientSecret: 5b2ef80b4dff70cfb84cf0986f36defa549ec438
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
