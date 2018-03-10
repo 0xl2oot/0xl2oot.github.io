@@ -1,0 +1,118 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl: ''
+url: https://0xl2oot.cn
+date_format: "ordinal"
+title: 0xl2oot
+subtitle: "To My Love"
+description: "0xl2oot - 分享技术，分享知识"
+keywords: 0xl2oot
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 4
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: 0xl2oot
+organization: 0xl2oot
+organization_url: https://0xl2oot.cn/
+github_username: 0xl2oot
+location: Beijing, China
+email: 0xl2oot@gmail.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /wiki/
+    label: 维基
+
+  -
+    href: /links/
+    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+    highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+plugins:
+    - jekyll-github-metadata
+    - rouge
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+    story:
+        output: true
+        permalink: /story/:path
+    en:
+        output: true
+        permalink: /en/:path
+
+repository: 0xl2oot/0xl2oot.github.io
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: 0xl2oot
+    repo: blog-comments
+    clientID: 48f7d57eccfcb4a38949
+    clientSecret: 5b2ef80b4dff70cfb84cf0986f36defa549ec438
+
+google:
+    analytics_id: UA-96623363-2
+    
+# 心知天气
+seniverse: 
+    flavor: bubble
+    location: WX4FBXXFKE4F
+    geolocation: enabled
+    position: top-right
+    margin: 40px 10px
+    language: auto
+    unit: c
+    theme: chameleon
+    uid: U92CBFC4E9
+    hash: 3be992782becc16c9ab774749c1a2c20
+
