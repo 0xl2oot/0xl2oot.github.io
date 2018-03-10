@@ -1,7 +1,7 @@
 <div style="height: 220px; width: 100%;">
 	<div class="tagcloud">
-		{% for category in site.tags %}
-			<a href="#">{{ category | first }}</a>
+		{% for category in site.categories %}
+			<a href="https://0xl2oot.cn/categories/#{{ category | first }}">{{ category | first }}</a>
 		{% endfor %}
 	</div>
 </div>
