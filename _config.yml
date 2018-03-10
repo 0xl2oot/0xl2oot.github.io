@@ -91,10 +91,7 @@ repository: 0xl2oot/0xl2oot.github.io
 comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username: 
-# https://imsun.net/posts/gitment-introduction/
+
 gitment:
     owner: 
     repo: 
@@ -107,12 +104,7 @@ gitalk:
     repo: blog-comments
     clientID: 48f7d57eccfcb4a38949
     clientSecret: 5b2ef80b4dff70cfb84cf0986f36defa549ec438
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : false
 
-# ---------------- #
-#    Analytics     #
-# ---------------- #
 google:
     analytics_id: UA-96623363-2
     
