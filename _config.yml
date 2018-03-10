@@ -92,12 +92,6 @@ comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 
-gitment:
-    owner: 
-    repo: 
-    oauth:
-        client_id: 
-        client_secret: 
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: 0xl2oot
