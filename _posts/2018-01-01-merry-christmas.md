@@ -2,10 +2,9 @@
 layout: post
 title: 用 MATLAB 画圣诞树
 categories: [MATLAB]
-description: 用 MATLAB 画圣诞树
 keywords: MATLAB, 圣诞树
+description: 用 MATLAB 画圣诞树
 excerpt: 用 MATLAB 画圣诞树
-tags: [MATLAB]
 ---
 
 效果是这样：
