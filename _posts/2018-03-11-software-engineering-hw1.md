@@ -52,17 +52,26 @@ keywords: Software Engineering
 
 ---
 
-4.1 Provide three examples of software projects that would be amenable to the waterfall model. Be specific.
-4.2 Provide three examples of software projects that would be amenable to the prototyping model. Be specific.
-4.3 Provide three examples of software projects that would be amenable to the incremental model. Be specific.
+* .1 Provide three examples of software projects that would be amenable to the waterfall model. Be specific.
+* 4.1 详细描述三个适于采用瀑布模型的软件项目。
+* Answer:
+    * 1
+* 答：
+    * 1
 
-4.1 详细描述 三个适于采用瀑布模型的软件项目 。
+* 4.2 Provide three examples of software projects that would be amenable to the prototyping model. Be specific.
+* 4.2 详细描述三个适于采用原型模型的软件项目。
+* Answer:
+    * 1
+* 答：
+    * 1
 
-4.2 详细描述三个适于采用原型模型的软件项目 。
+* 4.3 Provide three examples of software projects that would be amenable to the incremental model. Be specific.
+* 4.3 如果将原型变成一个可发布的系统或者产品，应该如何调整过程？
+* Answer:
+    * 1
+* 答：
+    * 1
 
-4.3 如果将原型变成一个可发布的系统或者产品，应该如何调整过程？
-
-
-5.12 Visit the Official Agile Modeling site and make a complete list of all core and supplementary AM principles.
-
-5.12 访问敏捷建模官方网站，列出所有核心的和补充性的 AM 原则。
+* 5.12 Visit the Official Agile Modeling site and make a complete list of all core and supplementary AM principles.
+* 5.12 访问敏捷建模官方网站，列出所有核心的和补充性的 AM 原则。

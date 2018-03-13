@@ -31,3 +31,59 @@ layout: default
 </div>
 </section>
 <!-- /section.content -->
+
+<!-- video -->
+
+{% if page.video %}
+<link href="https://cdn.bootcss.com/video.js/6.7.4/video-js.min.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/video.js/6.7.4/video.min.js"></script>
+<style>
+.video {
+  position: fixed;
+    z-index: 100;
+    width: 640px;
+    bottom: 10px;
+    right: 10px;
+}
+.video-js {
+    position: fixed;
+    z-index: 100;
+    width: 640px;
+    height: 360px;
+    bottom: 10px;
+    right: 10px;
+}
+</style>
+<div class="video mobile-hidden" id="video-box">
+    <div class="" role="group" 
+    style="padding-bottom: 360px; background-color:white;">
+      {% for v in page.video %}
+        <button type="button" class="btn btn-default" onclick="javascript:changevideo('{{ v }}');">{{ v }}</button>
+      {% endfor %}
+    </div>
+<video
+    id="my-player"
+    class="video-js"
+    controls
+    preload="auto"
+    data-setup='{}'>
+  <source src="http://localhost/video/{{ page.video[0] }}" type="video/mp4"></source>
+  
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a
+    web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">
+      supports HTML5 video
+    </a>
+  </p>
+</video>
+</div>
+<script>
+window.HELP_IMPROVE_VIDEOJS = false;
+function changevideo($str) {
+  var src = 'http://localhost/video/'+$str;
+  $("#video-box video").prop("src",src);
+  $("#video-box").show();
+}
+</script>
+{% endif %}
