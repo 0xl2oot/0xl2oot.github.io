@@ -22,6 +22,9 @@ layout: default
     <div class="share">
       {% include sns-share.html %}
     </div>
+    <div class="comment">
+      {% include comments.html %}
+    </div>
   </div>
   <div class="column one-fourth">
     {% include sidebar-search.html %}
@@ -38,32 +41,52 @@ layout: default
 <link href="https://cdn.bootcss.com/video.js/6.7.4/video-js.min.css" rel="stylesheet">
 <script src="https://cdn.bootcss.com/video.js/6.7.4/video.min.js"></script>
 <style>
-.video {
+.video-bottom {
   position: fixed;
-    z-index: 100;
+    z-index: 9999999999;
     width: 640px;
     bottom: 10px;
     right: 10px;
 }
-.video-js {
+.video-js-bottom {
     position: fixed;
-    z-index: 100;
+    z-index: 9999999999;
     width: 640px;
     height: 360px;
     bottom: 10px;
     right: 10px;
 }
+.video-top {
+  position: fixed;
+    z-index: 9999999999;
+    width: 640px;
+    top: 10px;
+    right: 10px;
+}
+.video-js-top {
+    position: fixed;
+    z-index: 9999999999;
+    width: 640px;
+    height: 360px;
+    top: 10px;
+    right: 10px;
+}
+
 </style>
-<div class="video mobile-hidden" id="video-box">
-    <div class="" role="group" 
+<div class="video mobile-hidden video-bottom" id="video-box">
+    <div class="" role="group" id="video-button"
     style="padding-bottom: 360px; background-color:white;">
       {% for v in page.video %}
         <button type="button" class="btn btn-default" onclick="javascript:changevideo('{{ v }}');">{{ v }}</button>
       {% endfor %}
+        <button type="button" class="btn btn-default" id="video-down" style="display:none;"
+        onclick="javascript:down();" >↓</button>
+        <button type="button" class="btn btn-default" id="video-up" 
+        onclick="javascript:up();">↑</button>
     </div>
 <video
     id="my-player"
-    class="video-js"
+    class="video-js video-js-bottom"
     controls
     preload="auto"
     data-setup='{}'>
@@ -84,6 +107,24 @@ function changevideo($str) {
   var src = 'http://localhost/video/'+$str;
   $("#video-box video").prop("src",src);
   $("#video-box").show();
+}
+function up() {
+  document.getElementById("video-box").classList.remove("video-bottom");
+  document.getElementById("video-box").classList.add("video-top");
+  document.getElementById("my-player").classList.remove("video-js-bottom");
+  document.getElementById("my-player").classList.add("video-js-top");
+  document.getElementById("video-button").style.padding="360px 0 0 0";
+  document.getElementById("video-up").style.display="none";
+  document.getElementById("video-down").style.display="inline-block";
+}
+function down() {
+  document.getElementById("video-box").classList.remove("video-top");
+  document.getElementById("video-box").classList.add("video-bottom");
+  document.getElementById("my-player").classList.remove("video-js-top");
+  document.getElementById("my-player").classList.add("video-js-bottom");
+  document.getElementById("video-button").style.padding="0 0 360px 0";
+  document.getElementById("video-down").style.display="none";
+  document.getElementById("video-up").style.display="inline-block";
 }
 </script>
 {% endif %}
