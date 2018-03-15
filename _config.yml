@@ -81,6 +81,9 @@ collections:
     en:
         output: true
         permalink: /en/:path
+    note:
+        output: true
+        permalink: /note/:path
 
 repository: 0xl2oot/0xl2oot.github.io
 

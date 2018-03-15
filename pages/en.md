@@ -12,7 +12,7 @@ permalink: /en/
 
 <ul class="listing">
 {% for en in site.en %}
-{% if story.title != "English Template" %}
+{% if en.title != "English Template" %}
 <li class="listing-item"><a href="{{ site.url }}{{ en.url }}">{{ en.title }}</a></li>
 {% endif %}
 {% endfor %}
