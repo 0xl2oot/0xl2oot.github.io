@@ -19,3 +19,5 @@ keywords: week schedule
 | 周五 1-3节 | 数字图像处理 | B阶201 | |
 | 周五 6-8节 | 人工智能导论 | B阶103 | |
 | 周日 6-9节 | 计算机系统结构 | B阶203 | |
+
+![time](/images/wiki/time.png)
