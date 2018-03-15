@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: note
 title: Software Engineering Homework 1
 description: Software Engineering Homework 1
 excerpt: Software Engineering Homework 1
