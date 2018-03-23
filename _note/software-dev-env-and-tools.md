@@ -7,9 +7,14 @@ categories: [Software Development Environment and Tools]
 keywords: Software Development Environment and Tools
 ---
 
-分组 - 一个集成开发环境 - 写一个报告 - 周五交 - 分组名单 - 
+https://www.embarcadero.com/products/delphi
 
+https://www.appeon.com/
 
-需求分析 - 结题报告
+https://www.zamzar.com/
 
-平时成绩 报告
+https://convertio.co/zh/ppt-converter/
+
+http://pages.skydocu.com/zh-cn/
+
+https://wenku.baidu.com/view/e0bbf9010912a2161579291b.html
