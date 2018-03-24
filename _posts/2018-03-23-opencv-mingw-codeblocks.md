@@ -11,11 +11,11 @@ OpenCV 在 3.X 的版本以后就不提供 MinGW 的编译版本了，所以要�
 
 [tdm-gcc](http://tdm-gcc.tdragon.net/download)
 
-或者 [tdm64-gcc-5.1.0-2.exe](https://download.0xl2oot.cn/tdm64-gcc-5.1.0-2.exe)。
+或者 [tdm64-gcc-5.1.0-2.exe](https://pan.lanzou.com/i0piqyd)。
 
 解压到 C:/ 根目录
 
-2.下载编译好的 [OpenCV 3.1版本](https://download.0xl2oot.cn/opencv3.1.0.zip) 
+2.下载编译好的 [OpenCV 3.1版本](https://pan.lanzou.com/i0piqpe) 
 
 解压到 C:/ 根目录
 
