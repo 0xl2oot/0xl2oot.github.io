@@ -2,5 +2,5 @@ _drafts
 _site
 CNAME
 .vscode
-vendor
+vendor/*
 .bundle
