@@ -1,8 +1,12 @@
     <footer class="container">
         <div class="site-footer" role="contentinfo">
             <div class="copyright left mobile-block">
-                    © 2018
-                    <span title="{{ site.author}}" class="mobile-hidden">{{ site.author }} Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
+                    © 2018 | {{ site.author }}
+                    <span title="{{ site.author}}" class="mobile-hidden">| Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
+                    |
+                    <span>
+                        <a href="http://www.miitbeian.gov.cn">京ICP备18012168号-1</a>
+                    </span>
                     <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a>
             </div>
             
@@ -18,10 +22,10 @@
               <span id="busuanzi_container_site_pv">本站总访问量<i class="fa fa-eye"></i>&nbsp;<span id="busuanzi_value_site_pv"></span>&nbsp;次</span>
             </div>
             
-            <a href="https://github.com/{{ site.repository }}" target="_blank" aria-label="view source code">
+            <a class="mobile-hidden" href="https://github.com/{{ site.repository }}" target="_blank" aria-label="view source code">
                 <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
             </a>
-            <ul class="site-footer-links mobile-hidden">
+            <!-- <ul class="site-footer-links mobile-hidden">
                 {% for nav in site.navs %}
                 <li>
                     <a href="{{ site.url }}{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
@@ -29,7 +33,7 @@
                 {% endfor %}
                 <li><a href="{{ site.url }}{{ site.subscribe_rss }}"><span class="octicon octicon-rss" style="color:orange;"></span></a></li>
             </ul>
-
+ -->
         </div>
     </footer>
     <!-- / footer -->
