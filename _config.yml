@@ -101,8 +101,8 @@ comments_provider: gitalk
 gitalk:
     owner: 0xl2oot
     repo: blog-comments
-    clientID: Iv1.eb49d823ec37084b
-    clientSecret: 09d0b5f40276531fa5994b4e8ad2ec9d53690a59
+    clientID: f3c95955788943fba10c
+    clientSecret: 105d450649df61cf8691b47a334fa40d798fd236
 
 google:
     analytics_id: UA-96623363-2
