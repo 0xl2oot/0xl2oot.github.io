@@ -273,7 +273,7 @@ public class Test {
         // 创建 SessionFactory 对象
         SessionFactory sessionFactory = configuration.buildSessionFactory();
 
-        // 使用 SessionFactory 创建 session 对象
+        // 使用 SessionFactory 创建 Session 对象
         Session session = sessionFactory.openSession();
 
         // 开启事务
