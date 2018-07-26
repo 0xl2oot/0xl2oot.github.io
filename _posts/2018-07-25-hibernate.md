@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Hibernate 原理及实战
+title: Hibernate 原理及实战（一）
 categories: [Java]
 description: Hibernate 原理及实战
+excerpt: Hibernate 简介，想关基础概念和一个简单的 Hibernate 示例
 tags: [Hibernate]
 ---
 
