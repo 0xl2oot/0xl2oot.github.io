@@ -140,6 +140,8 @@ Hibernate 将 Java 类映射到数据库表中，从 Java 数据类型中映射�
 
 ![mysql-jdbc-driver](/images/post/hibernate/mysql-jdbc-driver.png)
 
+输入 mysql:mysql-connector-java:8.0.11 (当前最新版本，可以根据需求选择合适的版本) 勾选 Download to (path to lib)
+
 #### 5.3.创建一个实体类 Student.java
 
 ```java
@@ -308,7 +310,129 @@ public class Test {
 
 <a href="/assets/zip/Hibernate001.zip" download>下载 Hibernate 示例</a>
 
-### 6.参考文献
+### 6.HibernateUtils 类
+
+由于 SessionFactory 是在每次执行时都会检查是否已经建表，因此开销很大，解决办法是用一个 HibernateUtils 类，程序只需执行一次初始化即可。（初始化采用 static 代码块）
+
+```java
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class HibernateUtils {
+
+    private static final SessionFactory sessionFactory;
+
+    static {
+        try {
+            // 加载 Hibernate 核心配置文件
+            Configuration configuration = new Configuration();
+            configuration.configure();
+            sessionFactory = configuration.buildSessionFactory();
+        } catch (Throwable ex) {
+            throw new ExceptionInInitializerError(ex);
+        }
+    }
+
+    public static SessionFactory getSessionFactory() {
+        return sessionFactory;
+    }
+}
+```
+
+这样写好之后就只需要用 getSessionFactory() 方法就可以了。
+
+```java
+SessionFactory sessionFactory = HibernateUtils.getSessionFactory();
+```
+
+
+### 7.使用 Hibernate 的注解模式
+
+新建一个 Teacher.java 类，Hibernate的注解是什么？ 简单的说，本来放在hbm.xml文件里的映射信息，现在不用配置文件做了，改由注解来完成。
+
+
+```java
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "h_teacher")
+public class Teacher {
+
+    @Id
+    private int id;
+    private String name;
+    private String sex;
+    private String address;
+    private String password;
+
+    public Teacher() {}
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
+```
+
+这样写完之后还不能直接用，要在 Hibernate 配置文件(hibernate.cfg.xml) 中声明持久化类。
+
+```xml
+<mapping class="com.example.Teacher"></mapping>
+```
+
+测试结果与上述 Student 类似，不再展示。
+
+### 8.在Intellij IDEA下通过 Hibernate 逆向生成实体类
+
+参考 [在Intellij IDEA下通过Hibernate逆向生成实体类](https://www.cnblogs.com/morewindows0/p/8577351.html)
+
+创建好数据库之后，打开 Persistence 视图，在  Hibernate 上右键，Generate Persistence Mapping -> By Database Schema 
+
+![import-database-schema](/images/post/hibernate/import-database-schema.png)
+
+这样就自动生成了实体类。如图：
+
+![SC](/images/post/hibernate/SC.png)
+
+
+### 参考文献
 
 [DAL、DAO、ORM、Active Record辨析](https://blog.csdn.net/suiye/article/details/7824943)
 
@@ -329,3 +453,5 @@ public class Test {
 [Intellij IDEA创建第一个hibernate项目](https://blog.csdn.net/chensanwa/article/details/79103569)
 
 [在Intellij IDEA下通过Hibernate逆向生成实体类](https://www.cnblogs.com/morewindows0/p/8577351.html)
+
+[Hibernate注解-使用注解示例](https://blog.csdn.net/wo_shi_LTB/article/details/79157243)
