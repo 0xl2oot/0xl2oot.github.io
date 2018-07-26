@@ -396,12 +396,94 @@ Session session = getSessionObject();
 - （2）查询所有语句： from 实体类名称
 
 
+```java
+// 使用 Query 对象
+@Test
+public void testTx() {
+    SessionFactory sessionFactory = null;
+    Session session = null;
+    Transaction transaction = null;
+    try {
+        // 开启事务
+        // 1.调用工具类得到 sessionFactory
+        sessionFactory = HibernateUtils.getSessionFactory();
+        // 2.获取 Session
+        session = sessionFactory.openSession();
+        // 3.开启事务
+        transaction = session.beginTransaction();
+
+        // 创建一个 Query 对象
+        // 方法里面写 HQL 语句
+        Query query = session.createQuery("from Student");
+        // 调用 Query 对象里面的方法得到结果
+        List<Student> list = query.list();
+
+        for(Student student : list) {
+            System.out.println(student);
+        }
+
+        // 提交事务
+        transaction.commit();
+
+    } catch (Exception e) {
+        e.printStackTrace();
+        // 回滚事务
+        transaction.rollback();
+    } finally {
+        // 关闭操作
+        session.close();
+        sessionFactory.close();
+    }
+}
+```
+
+
 #### 7.2.Criteria 对象
+
+1 使用这种方式，不需要写任何语句，都是调用方法实现
+
+2 具体实现
+- 第一步 创建critica对象
+- 第二步 调用critica对象里面的方法得到结果
+
+```java
+// 创建 criteria 对象
+Criteria criteria = session.createCriteria(Student.class);
+List<Student> list = criteria.list();
+for(Student student : list) {
+    System.out.println(student);
+}
+```
 
 
 #### 7.3.SQLquery 对象
 
+1 这种方式可以使用普通sql实现
 
+2 实现步骤
+- 第一步 创建对象
+- 第二步 调用方法得到结果
+
+返回 list 集合每部分是数组形式
+
+```java
+SQLQuery sqlQuery = session.createSQLQuery("select * from h_student");
+List<Object[]> list = sqlQuery.list();
+for(Object[] objects : list) {
+    System.out.println(Arrays.toString(objects));
+}
+```
+
+返回 list 集合每部分是对象形式
+
+```java
+SQLQuery sqlQuery = session.createSQLQuery("select * from h_student");
+sqlQuery.addEntity(Student.class);
+List<Student> list = sqlQuery.list();
+for(Student student : list) {
+    System.out.println(student);
+}
+```
 
 ### 参考文献
 
