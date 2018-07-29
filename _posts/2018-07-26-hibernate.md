@@ -3,7 +3,7 @@ layout: post
 title: Hibernate 原理及实战（二）
 categories: [Java]
 description: Hibernate 原理及实战
-excerpt: 实体类的编写规则，主键生成策略，对实体类的 CRUD 操作，Hibernate 的一级缓存，事务代码的规范写法
+excerpt: 实体类的编写规则，主键生成策略，对实体类的 CRUD 操作，Hibernate 的一级缓存，事务代码的规范写法，以及 Hibernate 其他 API 的使用
 tags: [Hibernate]
 ---
 
