@@ -8,8 +8,6 @@ menu: English
 permalink: /en/
 ---
 
-> 
-
 <ul class="listing">
 {% for en in site.en %}
 {% if en.title != "English Template" %}

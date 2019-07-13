@@ -8,8 +8,6 @@ menu: 故事
 permalink: /story/
 ---
 
-> 
-
 <ul class="listing">
 {% for story in site.story %}
 {% if story.title != "Story Template" %}

@@ -1,3 +1,10 @@
+---
+layout: note
+title: Springboot Start
+categories: [Springboot]
+keywords: Springboot
+---
+
 
 ### 新建 spring boot 项目
 
