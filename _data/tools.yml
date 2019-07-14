@@ -1,0 +1,9 @@
+- name: Linux Command
+  description: Linux Command
+  repo: jaywcjlove/linux-command
+  url: /lc/
+- name: Calendar
+  url: /calendar/
+- name: 知道创宇研发技能表v3.0
+  url: /knownsec/
+  

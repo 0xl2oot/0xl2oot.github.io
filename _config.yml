@@ -41,6 +41,10 @@ navs:
     href: /links/
     label: 链接
 
+  - 
+    href: /tools/
+    label: 工具
+
   -
     href: /about/
     label: 关于
