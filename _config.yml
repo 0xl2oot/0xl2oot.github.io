@@ -16,11 +16,12 @@ side_bar_repo_limit: 4
 #      Author      #
 # ---------------- #
 author: 0xl2oot
-organization: 0xl2oot
-organization_url: https://0xl2oot.cn/
 github_username: 0xl2oot
 location: Beijing, China
 email: 0xl2oot@gmail.com
+
+github:
+  owner_name: 0xl2oot
 
 # ---------------- #
 #    Navigation    #
