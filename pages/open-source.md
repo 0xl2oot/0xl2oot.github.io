@@ -6,6 +6,9 @@ description: 开源改变世界。
 permalink: /open-source/
 ---
 
+{% if site.github.owner_name == "0xl2oot" %}
+
+
 {% if site.github.public_repositories != null %}
 {% assign sorted_repos = site.github.public_repositories | sort:'stargazers_count' | reverse %}
 
@@ -49,4 +52,8 @@ permalink: /open-source/
         {% endfor %}
     </div>
 </section>
+{% endif %}
+
+{% else %}
+{% include sidebar-tags-cloud.html %}
 {% endif %}

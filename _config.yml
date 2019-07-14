@@ -84,7 +84,7 @@ collections:
         output: true
         permalink: /note/:path
 
-repository: 0xl2oot/0xl2oot.github.io
+repository: jekyll/0xl2oot.github.io
 
 # ---------------- #
 #      Comments    #
