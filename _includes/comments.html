@@ -8,7 +8,7 @@
     <script src="https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.js"></script>
     <script>
         var gitalk = new Gitalk({
-            id: '{{ page.url }}',
+            id: '{{ page.url.substr(0,48) }}',
             clientID: '{{ site.gitalk.clientID }}',
             clientSecret: '{{ site.gitalk.clientSecret }}',
             repo: '{{ site.gitalk.repo }}',
