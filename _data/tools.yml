@@ -6,4 +6,7 @@
   url: /calendar/
 - name: 知道创宇研发技能表v3.0
   url: /knownsec/
-  
+- name: Elasticsearch：权威指南
+  repo: elasticsearch-cn/elasticsearch-definitive-guide
+  url: https://es.0xl2oot.cn/
+   
