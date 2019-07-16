@@ -2,6 +2,8 @@
   description: Linux Command
   repo: jaywcjlove/linux-command
   url: /lc/
+- name: Firefox Send
+  url: https://send.firefox.com/
 - name: Calendar
   url: /calendar/
 - name: 知道创宇研发技能表v3.0
