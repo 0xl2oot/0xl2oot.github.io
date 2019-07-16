@@ -1,12 +1,12 @@
 <div style="height: 220px; width: 100%;">
 	<div class="tagcloud">
 		{% for category in site.categories %}
-			<a href="https://0xl2oot.cn/categories/#{{ category | first }}">{{ category | first }}</a>
+			<a href="/categories/#{{ category | first }}">{{ category | first }}</a>
 		{% endfor %}
 	</div>
 </div>
 
-<script src="{{ site.url }}/assets/vendor/tagcloud/dist/tagcloud.min.js"></script>
+<script src="/assets/vendor/tagcloud/dist/tagcloud.min.js"></script>
 <script type="text/javascript">
 	tagcloud({
 			//参数名: 默认值

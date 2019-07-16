@@ -11,7 +11,7 @@ permalink: /story/
 <ul class="listing">
 {% for story in site.story %}
 {% if story.title != "Story Template" %}
-<li class="listing-item"><a href="{{ site.url }}{{ story.url }}">{{ story.title }}</a></li>
+<li class="listing-item"><a href="{{ story.url }}">{{ story.title }}</a></li>
 {% endif %}
 {% endfor %}
 </ul>
