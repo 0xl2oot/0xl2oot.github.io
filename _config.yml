@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: ''
-url: https://0xl2oot.cn
+# url: https://0xl2oot.cn
 date_format: "ordinal"
 title: 0xl2oot
 subtitle: "To My Love"
