@@ -19,9 +19,17 @@
   repo: tool.oschina.net
   url: https://tool.oschina.net/
 
+- name: 全历史
+  repo: allhistory.com
+  url: https://www.allhistory.com/
+
 - name: 今日热榜
   repo: tophub.today
   url: https://tophub.today/
+
+- name: 磁力猫
+  repo: cilimao.io
+  url: https://www.cilimao.life/
   
 - name: Calendar
   repo: hippo-yuan/Calendar.js
