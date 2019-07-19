@@ -1,20 +1,20 @@
 ---
 layout: default
-title: Tools
-keywords: 工具，Tools
-description: 好用的工具
-permalink: /tools/
+title: Books
+keywords: Books, 电子书, EBook
+description: Books
+permalink: /books/
 ---
 
 <section class="container">
     <header class="text-center">
-        <h1>Tools</h1>
-        <p class="lead">There are <span class="repo-count">{{ site.data.tools.size }}</span> Tools</p>
+        <h1>Books</h1>
+        <p class="lead">There are <span class="repo-count">{{ site.data.books.size }}</span> books</p>
     </header>
     <div class="repo-list">
         <!-- Check here for github metadata -->
         <!-- https://help.github.com/articles/repository-metadata-on-github-pages/ -->
-        {% for tool in site.data.tools %}
+        {% for tool in site.data.books %}
         <a href="{{ tool.url }}" target="_blank" class="one-third-column card text-center">
             <div class="thumbnail">
                 <div class="card-image geopattern" data-pattern-id="{{ tool.name }}">

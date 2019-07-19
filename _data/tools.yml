@@ -4,16 +4,25 @@
   url: /lc/
 
 - name: Firefox Send
+  repo: send.firefox.com
   url: https://send.firefox.com/
 
 - name: 在线JSON解析
+  repo: www.json.cn
   url: https://www.json.cn/
 
-- name: Elasticsearch：权威指南
-  repo: elasticsearch-cn/elasticsearch-definitive-guide
-  url: https://es.0xl2oot.cn/
+- name: NewJson工具集
+  repo: www.newjson.com
+  url: http://www.newjson.com/
 
+- name: OSCHINA 在线工具
+  repo: tool.oschina.net
+  url: https://tool.oschina.net/
+
+- name: 今日热榜
+  repo: tophub.today
+  url: https://tophub.today/
+  
 - name: Calendar
+  repo: hippo-yuan/Calendar.js
   url: /calendar/
-- name: 知道创宇研发技能表v3.0
-  url: /knownsec/   

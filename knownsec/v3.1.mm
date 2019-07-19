@@ -1,16 +1,16 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1354239686329" ID="ID_846346631" MODIFIED="1438779266825" STYLE="fork">
+<node CREATED="1354239686329" ID="ID_846346631" MODIFIED="1463563969010" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="5">&#30693;&#36947;&#21019;&#23431;&#30740;&#21457;&#25216;&#33021;&#34920;v3.0</font>
+      <font size="5">&#30693;&#36947;&#21019;&#23431;&#30740;&#21457;&#25216;&#33021;&#34920;v3.1</font>
     </p>
     <p>
-      2015/8/21 &#21457;&#24067;
+      2016/5/18 &#21457;&#24067;
     </p>
     <p>
       by @&#30693;&#36947;&#21019;&#23431;(www.knownsec.com) @&#20313;&#24358; &amp; 404&#22242;&#38431;
@@ -33,7 +33,7 @@
 <node CREATED="1366597165463" ID="ID_788965343" MODIFIED="1366597194773" TEXT="&#x9644;&#x4ef6;&#x6807;&#x5fd7;&#x662f;&#x6211;&#x4eec;&#x63a8;&#x8350;&#x7684;&#x9644;&#x52a0;&#x8d44;&#x6e90;&#xff0c;&#x611f;&#x8c22;&#x8d44;&#x6e90;&#x63d0;&#x4f9b;&#x8005;">
 <icon BUILTIN="attach"/>
 </node>
-<node CREATED="1366597406072" ID="ID_408134061" LINK="Knownsec_RD_Checklist_v3.0.7z" MODIFIED="1439033899350" TEXT="&#x77e5;&#x9053;&#x521b;&#x5b87;&#x7814;&#x53d1;&#x6280;&#x80fd;&#x8868;v3.0&#x79bb;&#x7ebf;&#x7248;&#x6253;&#x5305;&#x4e0b;&#x8f7d;"/>
+<node CREATED="1366597406072" ID="ID_408134061" LINK="Knownsec_RD_Checklist_v3.1.7z" MODIFIED="1463563955980" TEXT="&#x77e5;&#x9053;&#x521b;&#x5b87;&#x7814;&#x53d1;&#x6280;&#x80fd;&#x8868;v3.1&#x79bb;&#x7ebf;&#x7248;&#x6253;&#x5305;&#x4e0b;&#x8f7d;"/>
 </node>
 <node CREATED="1354257455737" ID="ID_557208710" MODIFIED="1438789281924" POSITION="left" TEXT="&#x901a;&#x7528;&#x6280;&#x80fd;">
 <node CREATED="1354257472176" ID="ID_1999124946" MODIFIED="1438414322775" TEXT="&#x516c;&#x53f8;&#x4e0e;&#x4e2a;&#x4eba;">
@@ -169,7 +169,7 @@
 <node CREATED="1354694409145" ID="ID_1841177366" MODIFIED="1438734849708" TEXT="&#x65b0;&#x4e8b;&#x7269;&#x7684;&#x654f;&#x611f;&#x6027;">
 <node CREATED="1354694462559" ID="ID_1914083475" MODIFIED="1394119172715" TEXT="&#x4fdd;&#x6301;&#x597d;&#x5947;&#x5fc3;"/>
 <node CREATED="1354694415302" ID="ID_586113309" MODIFIED="1394119239175" TEXT="&#x4e0d;&#x8981;&#x5c40;&#x9650;&#x5728;&#x81ea;&#x5df1;&#x7684;&#x5708;&#x5b50;&#xff0c;&#x9002;&#x5f53;&#x8de8;&#x754c;&#x5438;&#x6536;&#x7075;&#x611f;"/>
-<node CREATED="1438734921823" ID="ID_1039769986" MODIFIED="1438734950819" TEXT="&#x8ba2;&#x9605;&#x56fd;&#x5185;&#x5916;&#x4f18;&#x79c0;&#x535a;&#x5ba2;/&#x8d44;&#x6e90;&#xff0c;&#x6df1;&#x84dd;&#x9605;&#x8bfb;&#x4e0d;&#x9519;"/>
+<node CREATED="1438734921823" ID="ID_1039769986" MODIFIED="1463561866175" TEXT="&#x8ba2;&#x9605;&#x56fd;&#x5185;&#x5916;&#x4f18;&#x79c0;&#x535a;&#x5ba2;/&#x8d44;&#x6e90;&#xff0c;Inoreader/&#x6df1;&#x84dd;&#x9605;&#x8bfb;&#x4e0d;&#x9519;"/>
 <node CREATED="1354694503450" ID="ID_1709472205" MODIFIED="1357466329776" TEXT="&#x9009;&#x62e9;&#x6027;&#x53c2;&#x4e0e;&#x4e00;&#x4e9b;&#x5fc5;&#x8981;&#x7684;&#x4f1a;&#x8bae;&#xff0c;&#x542c;&#x5fc5;&#x8981;&#x7684;&#x4e3b;&#x9898;&#xff0c;&#x8ba8;&#x8bba;&#x5fc5;&#x8981;&#x7684;&#x8bdd;&#x9898;"/>
 </node>
 <node CREATED="1438734972110" ID="ID_1525070318" MODIFIED="1438735172311" TEXT="&#x5173;&#x4e8e;&#x77e5;&#x8bc6;">
@@ -593,8 +593,8 @@
 <node CREATED="1438770240841" ID="ID_1552152798" MODIFIED="1438770248181" TEXT="i&#x6625;&#x79cb;">
 <node CREATED="1438770250351" ID="ID_347352281" LINK="http://www.ichunqiu.com/" MODIFIED="1438770257913" TEXT="http://www.ichunqiu.com/"/>
 </node>
-<node CREATED="1354694706206" ID="ID_635030401" MODIFIED="1438770077314" TEXT="Sebug + ZoomEye">
-<node CREATED="1438770082190" ID="ID_1023804165" LINK="http://sebug.net" MODIFIED="1438770116618" TEXT="http://sebug.net"/>
+<node CREATED="1354694706206" ID="ID_635030401" MODIFIED="1463561955223" TEXT="Seebug + ZoomEye">
+<node CREATED="1438770082190" ID="ID_1023804165" LINK="http://seebug.org" MODIFIED="1463562002786" TEXT="http://seebug.org"/>
 <node CREATED="1438770086630" ID="ID_730583595" LINK="http://zoomeye.org" MODIFIED="1438770127727" TEXT="http://zoomeye.org"/>
 <node CREATED="1438770479978" ID="ID_993454021" MODIFIED="1438770486791" TEXT="&#x4f60;&#x61c2;&#x5f97;..."/>
 </node>
@@ -696,9 +696,9 @@
 <node CREATED="1438939568846" ID="ID_582375631" MODIFIED="1438939569859" TEXT="Linux&#x4e0b;&#x547d;&#x4ee4;&#x884c;&#x6293;&#x5305;&#xff0c;&#x7ed3;&#x679c;&#x53ef;&#x4ee5;&#x7ed9;Wireshark&#x5206;&#x6790;"/>
 </node>
 </node>
-<node CREATED="1354694706206" ID="ID_108146988" MODIFIED="1438770077314" TEXT="Sebug + ZoomEye">
+<node CREATED="1354694706206" ID="ID_108146988" MODIFIED="1463562037134" TEXT="Seebug + ZoomEye">
 <node CREATED="1438770479978" ID="ID_909871831" MODIFIED="1438939742697" TEXT="&#x7c7b;&#x4f3c;&#x8fd9;&#x7c7b;&#x5e73;&#x53f0;&#x90fd;&#x662f;&#x6211;&#x4eec;&#x9700;&#x8981;&#x7684;"/>
-<node CREATED="1438940318555" ID="ID_19521148" MODIFIED="1438940332614" TEXT="Sebug&#x7c7b;&#x4f3c;&#x7684;">
+<node CREATED="1438940318555" ID="ID_19521148" MODIFIED="1463562041167" TEXT="Seebug&#x7c7b;&#x4f3c;&#x7684;">
 <node CREATED="1438940343074" ID="ID_1284934621" MODIFIED="1438940344007" TEXT="https://www.exploit-db.com/"/>
 </node>
 <node CREATED="1438940352049" ID="ID_286056024" MODIFIED="1438940361732" TEXT="ZoomEye&#x7c7b;&#x4f3c;&#x7684;">
@@ -729,7 +729,7 @@
 <node CREATED="1438404808194" ID="ID_1760752724" MODIFIED="1438404811867" TEXT="&#x8def;&#x7531;&#x5668;&#x5b89;&#x5168;">
 <node CREATED="1438591171066" ID="ID_1539910688" MODIFIED="1438781779791" TEXT="&#x57fa;&#x7840;">
 <node CREATED="1438591191672" ID="ID_196034468" MODIFIED="1438929708453" TEXT="&#x5d4c;&#x5165;&#x5f0f;Linux&#x7cfb;&#x7edf;&#x65b9;&#x9762;&#x77e5;&#x8bc6;"/>
-<node CREATED="1438929815468" ID="ID_625554257" MODIFIED="1438929855406" TEXT="&#x5f00;&#x53d1;&#x7cfb;&#x7edf;&#x4e92;&#x8054;&#x53c2;&#x8003;&#x6a21;&#x578b;-&#x7b2c;&#x4e09;&#x5c42;&#x7f51;&#x7edc;&#x5c42;"/>
+<node CREATED="1438929815468" ID="ID_625554257" MODIFIED="1463562057422" TEXT="&#x5f00;&#x653e;&#x7cfb;&#x7edf;&#x4e92;&#x8054;&#x53c2;&#x8003;&#x6a21;&#x578b;-&#x7b2c;&#x4e09;&#x5c42;&#x7f51;&#x7edc;&#x5c42;"/>
 <node CREATED="1438591206961" ID="ID_1311465057" MODIFIED="1438781817988" TEXT="MIPS/ARM&#x6c47;&#x7f16;&#x77e5;&#x8bc6;"/>
 <node CREATED="1438932642361" ID="ID_1941694186" MODIFIED="1438932701157" TEXT="VxWorks&#x7cfb;&#x7edf;&#x65b9;&#x9762;&#x77e5;&#x8bc6;"/>
 <node CREATED="1438932888743" ID="ID_727891663" MODIFIED="1438932896168" TEXT="JTAG&#x8c03;&#x8bd5;&#x63a5;&#x53e3;&#x89c4;&#x8303;"/>
@@ -882,12 +882,12 @@
 <node CREATED="1394122225252" ID="ID_1866793548" MODIFIED="1438940727682" TEXT="&#x7814;&#x53d1;&#x6e05;&#x5355;">
 <node CREATED="1394104556794" ID="ID_348203788" MODIFIED="1438407148159" TEXT="&#x7f16;&#x7801;&#x73af;&#x5883;">
 <node CREATED="1394104580694" ID="ID_160705865" MODIFIED="1394104589584" TEXT="pip"/>
-<node CREATED="1394104578561" ID="ID_1056764018" MODIFIED="1394126787020" TEXT="Vagrant"/>
+<node CREATED="1394104578561" ID="ID_1056764018" MODIFIED="1463563673013" TEXT="Docker/Vagrant"/>
 <node CREATED="1394104563587" ID="ID_357951095" MODIFIED="1394126858967" TEXT="tmux/screen"/>
 <node CREATED="1394104614942" ID="ID_1019971551" MODIFIED="1438785115710" TEXT="vim"/>
 <node COLOR="#000000" CREATED="1438407158337" ID="ID_1350573813" MODIFIED="1438785142042" TEXT="Markdown"/>
 <node CREATED="1394104630070" ID="ID_393146269" MODIFIED="1394126851535" TEXT="zsh + oh-my-zsh"/>
-<node CREATED="1394104697289" ID="ID_1700888094" MODIFIED="1394126959992" TEXT="Python2.7"/>
+<node CREATED="1394104697289" ID="ID_1700888094" MODIFIED="1463563676258" TEXT="Python2.7+/3+"/>
 <node CREATED="1394104710383" ID="ID_586585248" MODIFIED="1394126956592" TEXT="&gt;Django1.4">
 <node CREATED="1355815985826" ID="ID_947674828" LINK="http://djangobook.py3k.cn/2.0/" MODIFIED="1394165136354" TEXT="http://djangobook.py3k.cn/2.0/"/>
 <node COLOR="#000000" CREATED="1438403748531" ID="ID_304997068" LINK="http://django-debug-toolbar.readthedocs.org/en/latest/" MODIFIED="1438785470834" TEXT="Django Debug Toolbar"/>
@@ -1057,6 +1057,7 @@
 <icon BUILTIN="idea"/>
 <node CREATED="1439032294533" ID="ID_1436643535" MODIFIED="1439032324528" TEXT="&#x6211;&#x7684;&#x5206;&#x4eab;">
 <node CREATED="1439032325369" ID="ID_1447092803" LINK="http://www.infoq.com/cn/presentations/programmers-and-hackers" MODIFIED="1439032365934" TEXT="&#x7a0b;&#x5e8f;&#x5458;&#x4e0e;&#x9ed1;&#x5ba2;&#xff1a;http://www.infoq.com/cn/presentations/programmers-and-hackers"/>
+<node CREATED="1463562217703" ID="ID_345942828" LINK="http://www.infoq.com/cn/presentations/programmers-and-hackers-part02" MODIFIED="1463562251560" TEXT="&#x7a0b;&#x5e8f;&#x5458;&#x4e0e;&#x9ed1;&#x5ba2;2&#xff1a;http://www.infoq.com/cn/presentations/programmers-and-hackers-part02"/>
 </node>
 </node>
 <node CREATED="1394106554124" ID="ID_179264180" MODIFIED="1394128003797" TEXT="&#x534f;&#x4f5c;">
@@ -1128,7 +1129,7 @@
 </node>
 <node CREATED="1438407550812" ID="ID_821959318" MODIFIED="1438592561809" TEXT="RSS&#x8ba2;&#x9605;">
 <node CREATED="1438407682181" ID="ID_514594876" MODIFIED="1438407685528" TEXT="&#x6f0f;&#x6d1e;&#x76f8;&#x5173;">
-<node CREATED="1438407626480" ID="ID_1507091513" LINK="http://sebug.net/rss.xml " MODIFIED="1438787193446" TEXT="http://sebug.net/rss.xml"/>
+<node CREATED="1438407626480" ID="ID_1507091513" LINK="http://seebug.org/rss.xml " MODIFIED="1463562383596" TEXT="http://seebug.org/rss.xml"/>
 <node CREATED="1438407559889" ID="ID_1039020164" LINK="https://www.exploit-db.com/rss.xml " MODIFIED="1438787195732" TEXT="https://www.exploit-db.com/rss.xml"/>
 <node CREATED="1438407593859" ID="ID_1288792092" LINK="https://rss.packetstormsecurity.com " MODIFIED="1438787198679" TEXT="https://rss.packetstormsecurity.com"/>
 <node CREATED="1438407601206" ID="ID_829431299" LINK="http://www.wooyun.org/feeds/public " MODIFIED="1438787203015" TEXT="http://www.wooyun.org/feeds/public"/>
@@ -1148,7 +1149,7 @@
 <node CREATED="1438410271173" ID="ID_626979305" LINK="https://pentesterlab.com" MODIFIED="1438410278381" TEXT="https://pentesterlab.com"/>
 </node>
 <node CREATED="1438410163637" ID="ID_972435194" MODIFIED="1438786764748" TEXT="PoC&#x63d0;&#x4ea4;&#x4e0e;&#x5b66;&#x4e60;">
-<node CREATED="1438410362802" ID="ID_1111372182" LINK="http://sebug.net" MODIFIED="1439030630112" TEXT="Sebug: http://sebug.net"/>
+<node CREATED="1438410362802" ID="ID_1111372182" LINK="http://seebug.org" MODIFIED="1463562313472" TEXT="Seebug: http://seebug.org"/>
 <node CREATED="1438410423943" ID="ID_1008897807" LINK="http://www.beebeeto.com" MODIFIED="1439030622803" TEXT="Beebeeto: http://www.beebeeto.com"/>
 <node CREATED="1438410379515" ID="ID_1691210129" LINK="http://www.bugscan.net" MODIFIED="1439030615996" TEXT="Bugscan: http://www.bugscan.net"/>
 <node CREATED="1438410401653" ID="ID_544729193" LINK="http://www.tangscan.com" MODIFIED="1439030609625" TEXT="Tangscan: http://www.tangscan.com"/>
