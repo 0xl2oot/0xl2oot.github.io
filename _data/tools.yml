@@ -7,6 +7,10 @@
   repo: send.firefox.com
   url: https://send.firefox.com/
 
+- name: 在线时间
+  repo: time.is
+  url: https://time.is/zh/Beijing
+
 - name: 在线JSON解析
   repo: www.json.cn
   url: https://www.json.cn/
