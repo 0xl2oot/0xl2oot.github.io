@@ -19,6 +19,10 @@
   repo: www.newjson.com
   url: http://www.newjson.com/
 
+- name: WhatIsMyBrowser
+  repo: whatismybrowser.com
+  url: https://www.whatismybrowser.com/
+
 - name: OSCHINA 在线工具
   repo: tool.oschina.net
   url: https://tool.oschina.net/
